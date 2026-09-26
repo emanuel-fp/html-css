@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias html 5</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>mude o tamanho do navegador e veja os diferentes tamanhos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-Pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-Media.png" type="image/png">
+        <img src="imagens/foto-Grande.png" alt="imagem grande">
+    </picture>
+
+    <h1>reprodução de audios</h1>
+    <p>audioosss em html 5</p>
+    <audio loop controls preload="metadata">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p>não foi possivel carregar seu audio</p>
+    </audio>
+</body>
+</html>

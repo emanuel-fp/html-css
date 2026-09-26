@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+}
+h1 {
+    color: #555A8C;
+}
+h1#principal {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    background-color: #272940;
+}
+.html {
+    color: white;
+    background-color: #8A92E3;
+}
+.css {
+    color:white;
+    background-color: #7278BA;
+}
+
+.indeciso {
+    color: gray;
+}
