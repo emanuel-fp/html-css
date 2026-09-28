@@ -23,7 +23,6 @@
     text-decoration: none;
     color: white;
     transition-duration: .25s;
-    font-col
 }
 .link > * > a::after {
     content: '🔗';
