@@ -11,11 +11,11 @@
     background-color: #00000055;
     color: white;
     display: inline-block;
-    padding: 1em;
+
     border-radius: 10px;
 }
 #image1, #image2 {
-    padding: 1em;
+    padding: 4vh 6vw;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
 }
 header, footer {
@@ -33,16 +33,17 @@ header > h1 {
 }
 
 section {
-    padding: 2em;
     font-family: "Sriracha", cursive;
     font-size: 3.5vw;
+}
+section > p {
+    padding: 4vh 6vw;
 }
 a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     transition-duration: .2s;
-
 }
 a:hover {
     transition-duration: .2s;
@@ -50,4 +51,9 @@ a:hover {
     background-color: rgba(129, 129, 129, 0.274);
     border-radius: 10px;
     font-size: 2.2vw;
+}
+a:active {
+    background-color: rgba(129, 129, 129, 0.479);
+    padding: 0;
+    font-size: 2vw;
 }
