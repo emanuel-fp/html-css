@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            height: 200vh;
+        }
+        table {
+            border-collapse: collapse;
+            width: 40em;
+            position: relative;
+        }
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+        th,td {
+            border: 1px solid black;
+        }
+        tbody > tr:nth-child(odd) {
+           background-color: lightgray;
+        }
+        table>thead>th {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas grandes</h1>
+
+    <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 179 008</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 560 311</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 225 410</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total habitantes</th>
+                <td>76480</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
